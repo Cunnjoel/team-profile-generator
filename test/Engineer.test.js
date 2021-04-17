@@ -1,5 +1,5 @@
-const Engineer = require("../lib/Engineer");
-const Employee = require("../lib/Employee");
+const Engineer = require("../lib/engineer");
+const Employee = require("../lib/employee");
 test("Can set github username via constructor argument", () => {
   const testValue = "github.com/foo";
   const e = new Engineer("Foo", 2, "test@test.com", testValue);
